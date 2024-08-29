@@ -251,6 +251,7 @@ _PYTORCH_CONV2D_INCLUDES = """
 
 _CUTLASS_TYPE_TO_TORCH_TYPE = {
     DataType.f16: "torch::kF16",
+    DataType.bf16: "torch::kBFloat16",
     DataType.f32: "torch::kF32",
     DataType.f64: "torch::kF64",
     DataType.s8: "torch::I8",
